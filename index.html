@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Julian Quiroz | Portafolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <nav>
+      <h2>Julian Quiroz</h2>
+      <div>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </nav>
+
+    <section class="hero-content">
+      <p class="tag">Finanzas · Ciencia de Datos · Programación</p>
+      <h1>Hola, soy Julian.</h1>
+      <p>
+        Estudiante de Finanzas y Ciencia de Datos en el ITAM. Me interesa convertir datos
+        en decisiones: desde análisis financiero y bases de datos hasta programación,
+        algoritmos y proyectos de Big Data.
+      </p>
+      <a class="btn" href="#proyectos">Ver proyectos</a>
+    </section>
+  </header>
+
+  <main>
+    <section id="sobre-mi" class="section">
+      <h2>Sobre mí</h2>
+      <p>
+        Me gusta construir soluciones que combinen análisis, lógica y tecnología.
+        Este portafolio reúne proyectos académicos y técnicos en Java, SQL, PySpark,
+        estructuras de datos y análisis algorítmico.
+      </p>
+    </section>
+
+    <section id="proyectos" class="section">
+      <h2>Proyectos</h2>
+
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="data">Data</button>
+        <button class="filter-btn" data-filter="java">Java</button>
+        <button class="filter-btn" data-filter="algorithms">Algoritmos</button>
+      </div>
+
+      <div class="grid">
+
+        <article class="card" data-category="java">
+          <span>Java · GUI</span>
+          <h3>Library Management System</h3>
+          <p>Sistema de biblioteca con membresías, préstamos, compras, saldos e interfaz gráfica en Java Swing.</p>
+          <a href="projects/library-system.html">Ver proyecto →</a>
+        </article>
+
+        <article class="card" data-category="data">
+          <span>SQL · PostgreSQL</span>
+          <h3>Metro CDMX Database Analysis</h3>
+          <p>Modelo relacional y análisis de más de 1 millón de registros de afluencia del Metro CDMX.</p>
+          <a href="projects/metro-sql.html">Ver proyecto →</a>
+        </article>
+
+        <article class="card" data-category="data">
+          <span>PySpark · Big Data</span>
+          <h3>Renewable Energy Classification</h3>
+          <p>Clasificación de países europeos según predominio solar, eólico o mixto usando PySpark.</p>
+          <a href="projects/pyspark-energy.html">Ver proyecto →</a>
+        </article>
+
+        <article class="card" data-category="algorithms">
+          <span>Java · Data Structures</span>
+          <h3>Data Structures Library</h3>
+          <p>Implementación de árboles, heaps, listas, colas, pilas, skip lists y algoritmos de ordenamiento.</p>
+          <a href="projects/data-structures.html">Ver proyecto →</a>
+        </article>
+
+        <article class="card" data-category="algorithms">
+          <span>Algorithms · Simulation</span>
+          <h3>Sorting Algorithms Under Uncertainty</h3>
+          <p>Comparación de algoritmos de ordenamiento bajo errores probabilísticos en comparaciones.</p>
+          <a href="projects/sorting-errors.html">Ver proyecto →</a>
+        </article>
+
+        <article class="card" data-category="algorithms">
+          <span>KD-Tree · Complexity</span>
+          <h3>KD-Tree vs Brute Force</h3>
+          <p>Análisis experimental de búsqueda multidimensional comparando KD-Trees contra búsqueda cuadrática.</p>
+          <a href="projects/kd-tree.html">Ver proyecto →</a>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="contacto" class="section contacto">
+      <h2>Contacto</h2>
+      <p>GitHub: <a href="#">julian-quiroz</a></p>
+      <p>Email: <a href="mailto:tu-correo@email.com">tu-correo@email.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Julian Quiroz · Portafolio personal</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
