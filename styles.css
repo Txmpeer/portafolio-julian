@@ -19,9 +19,11 @@ a {
 /* HERO */
 
 .hero {
-  min-height: 90vh;
-  padding: 30px 8%;
-  background: linear-gradient(135deg, #111827, #312e81, #7c3aed);
+  background: #0b1220; /* mismo fondo oscuro */
+  padding: 80px 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 nav {
@@ -74,6 +76,32 @@ h1 {
   padding: 12px 22px;
   border-radius: 12px;
   font-weight: bold;
+}
+
+.hero-sub {
+  font-size: 1.2rem;
+  color: #a0aec0;
+  margin: 15px 0 25px;
+}
+
+.hero-tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.hero-tags span {
+  background: #1f2937;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  color: #e5e7eb;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
 }
 
 /* SECTIONS */
